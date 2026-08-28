@@ -1,16 +1,13 @@
-# All About Pet Project Control Center
+# All About Pet Project Control Center — Approved UI V2
 
-React + Vite source application.
+This React + Vite update rebuilds the approved cover design as a real interactive UI.
+It uses the user-approved design as the UI master and crops the supplied actual company logo/icons as assets.
 
-## Run
-```bash
-npm install
-npm run dev
-```
+## Deploy
+Upload/replace these files in the existing GitHub repository:
+- index.html
+- package.json
+- src/
+- public/
 
-## Build
-```bash
-npm run build
-```
-
-Data status: Working Draft / Under Reconciliation. Production master write-back is OFF.
+Vercel will redeploy automatically after commit.
